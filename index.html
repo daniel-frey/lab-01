@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lab 01</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <header>
+        <section>
+            <img src="" alt="">
+            <h1>Cool Slide</h1>
+        </section>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Sales</li>
+                <li>Marketing</li>
+                <li>Ops</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Questions</h2>
+            <p>What's Your Name?</p>
+            <p>What is your favorite Color?</p>
+            <p>What about your favorite food?</p>
+            <p>How about your favorite season? I know you have one!</p>
+        </section>
+    </main>
+    <footer>
+        <p>copyright 2018</p>
+    </footer>
+    <script>
+        var userName, userColor, favFood, favSeason, message;
+
+        userName = prompt('Hello, what\'s your name?');
+        console.log('userName', userName);
+        userColor = prompt('Hi, ' + userName + '. What is your favorite color?');
+        console.log('userColor', userColor);
+        favFood = prompt(userColor + '. That\'s an interesting choice! ' + ' What about your favorite food?');
+        console.log('favfood', favFood);
+        favSeason = prompt('I love ' + favFood + ' too!' + ' How about your favorite season? I know you have one!');
+        console.log('favSeason', favSeason);
+        message = alert('Well, ' + userName +  ', who likes the color ' + userColor + ', who\'s favorite food is ' + favFood + ' and who\'s favorite season is ' + favSeason + ', It\'s nice to meet you!');
+        console.log('message', message);
+    </script>
+</body>
+</html>
